@@ -39,12 +39,6 @@ def merge(left_array, right_array):
 
 
 
-print(merge_sort([1, 2, 3, 4]))
-
-print(merge_sort([1, 2, 3, 4, 5]))
-
-print(merge_sort([1, 2]))
-
-print(merge_sort([1]))
+print(merge_sort([5, 4, 1, 3, 2, 6 ]))
 
 print(merge_sort([6, 0, 0, 2, 32, 78, 9, 0, 19, 34, 1]))
