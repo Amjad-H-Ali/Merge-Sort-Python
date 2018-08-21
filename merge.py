@@ -25,6 +25,10 @@ def merge(left_array, right_array):
 			result.append(left_array[left_indx])
 
 			left_indx += 1
+		else:
+			result.append(right_array[right_indx])
+
+			right += 1	
 
 
 
