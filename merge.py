@@ -18,7 +18,13 @@ def merge_sort(array):
 def merge(left_array, right_array):
 	result, left_indx, right_indx = [], 0, 0
 
-	print(result)
+	while(left_indx < len(left_array) && right_indx < len(right_array)):
+
+		if(left_array[left_indx] < right_array[right_indx]):
+
+			result.append(left_array[left_indx])
+
+			left_indx += 1
 
 
 
