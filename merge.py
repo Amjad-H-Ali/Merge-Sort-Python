@@ -8,8 +8,15 @@ def merge_sort(array):
  center = int(len(array)/2)
 
  left = array[:center]
+
+ right = array[center:]
  
- return left	
+ return merge(
+ 	merge_sort(left),
+ 	merge_sort(right)
+ )
+
+ def merge(left_array, right_array)	
 
 
 print(merge_sort([1, 2, 3, 4]))
